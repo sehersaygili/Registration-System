@@ -1,0 +1,408 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   */
+
+   html, body, div, span, applet, object, iframe,
+   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+   a, abbr, acronym, address, big, cite, code,
+   del, dfn, em, img, ins, kbd, q, s, samp,
+   small, strike, strong, sub, sup, tt, var,
+   b, u, i, center,
+   dl, dt, dd, ol, ul, li,
+   fieldset, form, label, legend,
+   table, caption, tbody, tfoot, thead, tr, th, td,
+   article, aside, canvas, details, embed, 
+   figure, figcaption, footer, header, hgroup, 
+   menu, nav, output, ruby, section, summary,
+   time, mark, audio, video {
+   	margin: 0;
+   	padding: 0;
+   	border: 0;
+   	font-size: 100%;
+   	font: inherit;
+   	vertical-align: baseline;
+   }
+   /* HTML5 display-role reset for older browsers */
+   article, aside, details, figcaption, figure, 
+   footer, header, hgroup, menu, nav, section {
+   	display: block;
+   }
+   body {
+   	line-height: 1;
+   }
+   ol, ul {
+   	list-style: none;
+   }
+   blockquote, q {
+   	quotes: none;
+   }
+   blockquote:before, blockquote:after,
+   q:before, q:after {
+   	content: '';
+   	content: none;
+   }
+   table {
+   	border-collapse: collapse;
+   	border-spacing: 0;
+   }
+   /* start editing from here */
+   .clear{clear:both;}
+   /*end reset*/
+
+   /****-----start-body----****/
+   body{
+   	background:url("../images/bg.jpg") no-repeat 0px 0px;
+   	background-size:cover;
+   	-o-background-size:cover;
+   	-moz-background-size:cover;
+   	-webkit-background-size:cover;
+   	font-family: 'Roboto', sans-serif;
+
+   }
+   span.tab-img{
+    float: left;
+    width: 25.5%;
+    margin-right: 2.6%;
+  }
+  .main h1{
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    font-family: 'Roboto', serif;
+    font-size: 3em;
+  }
+  body a,form li,.submit input[type="submit"],.submit.two input[type="submit"]{
+    transition: 0.1s all;
+    -webkit-transition: 0.1s all;
+    -moz-transition: 0.1s all;
+    -o-transition: 0.1s all;
+  }
+  .cntct.social-icons {
+    text-align: center;
+    display:block;
+    top:1px;
+    left:3px;
+    width:14px;
+    height:5px;
+    list-style-type:none;
+  }
+
+  /*----sap-----*/
+
+  .sap_tabs {
+    clear: both;
+    margin: 0 auto;
+    width:40%;
+    text-align: center;
+  }
+  .lst{
+    padding: 4% 4% 5% 4%;
+    background:rgba(56, 114, 154,0);
+  }
+  .resp-tabs-list{
+    width: 100%;
+  }
+  .resp-tab-item{
+    border:none;
+    color: rgba(240, 248, 255,0.40);
+    font-size: 1em;
+    background:rgba(56, 114, 154,0);
+    text-transform: uppercase;
+    cursor: pointer;
+    padding:1.3em 0;
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+    float: left;
+    width: 33.33%;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    font-weight: 500;
+  }
+  .resp-tab-item:hover{
+   background:rgba(235, 70, 52,0.40);
+   text-shadow: none;
+   color: #fff;
+ }
+ .resp-tab-active {
+   background:rgba(235, 70, 52,0.40);
+   text-shadow: none;
+   color:#fff;
+ }
+ .resp-tabs-container {
+   padding: 0px;
+   background:rgba(235, 70, 52,0.40);
+   clear: left;
+ }
+ h2.resp-accordion {
+   cursor: pointer;
+   padding: 5px;
+   display: none;
+ }
+ .resp-tab-content {
+   display: none;
+ }
+ .resp-content-active{
+   display: block;
+ }
+
+ /*----register-----*/
+
+ .register p{
+   font-size: 1.1em;
+   color: #999;
+   padding: 1.1em 0;
+   font-weight: 400;
+   text-align:left;
+ }
+ .register input[type="text"],.register input[type="password"]{
+   width: 95%;
+   padding: 0.8em 0.8em;
+   color: black;
+   font-size: 15px;
+   outline: none;
+   background-color: #fff;
+   border:none;
+   font-weight: 500;
+   font-family: 'Roboto', sans-serif;
+ }
+ .sign-up{
+   padding: 1.2em 0;
+ }
+ .sign-up input[type="reset"]{
+   float: left;
+   background: rgb(161, 32, 18,0.90);
+   padding: 0.8em 1.4em;
+   color: #fff;
+   font-weight: 400;
+   border: none;
+   outline: none;
+   font-size: 1em;
+   transition: 0.1s all;
+   -webkit-transition: 0.1s all;
+   -moz-transition: 0.1s all;
+   -o-transition: 0.1s all;
+   cursor: pointer;
+   font-family: 'Roboto', sans-serif;
+ }
+ .sign-up input[type="reset"]:hover,.sign-up input[type="submit"]:hover, .submit.two input[type="submit"]:hover{
+   -webkit-transform: rotate(4deg);
+   transform: rotate(4deg);
+   -o-transform: rotate(4deg);
+   -moz-transform: rotate(4deg);
+   background:#A12112;
+ }
+ .sign-up input[type="submit"]{
+   float: right;
+   background: rgb(161, 32, 18,0.90);
+   padding: 0.8em 1.5em;
+   color: #fff;
+   font-weight: 400;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   font-size: 1em;
+   transition: 0.1s all;
+   -webkit-transition: 0.1s all;
+   -moz-transition: 0.1s all;
+   -o-transition: 0.1s all;
+   font-family: 'Roboto', sans-serif;
+ }
+
+ /*-----login----------*/
+
+ .register p {
+   font-size: 1em;
+   color: #fff;
+   padding: 1em 0;
+   font-weight: 400;
+   font-family: 'Roboto', sans-serif;
+ }
+ .login input[type="text"],.login input[type="password"] {
+   width: 87.9%;
+   padding:1em 1em 0.9em 3em;
+   color: #999;
+   font-size: 17px;
+   outline: none;
+   font-weight: 400;
+   border: none;
+   border: 1px solid #fff;
+   margin: 0.8em 0;
+   background: url("../images/mail.png")no-repeat 10px 16px #fff;
+ }
+ .login input[type="password"] {
+  background: url("../images/lock.png")no-repeat 10px 15px #fff;
+}
+.submit.two {
+ float: left;
+}
+.submit.two input[type="submit"]{
+ font-size:1em;
+ font-weight: 400;
+ color: #fff;
+ cursor: pointer;
+ outline: none;
+ padding: 0.8em 2em;
+ border: none;
+ background: #BA3627;
+ font-family: 'Roboto', sans-serif;
+}
+.social-icons li {
+  text-decoration: none;
+  width: 100%;
+  padding:1em 0;
+}
+
+/*-----start-responsive-design------*/
+
+@media (max-width:1440px){
+ .login input[type="text"],.login input[type="password"] {
+  width: 86.3%;
+}
+.sap_tabs {
+  margin: 0 auto;
+  width:40%;
+}
+.main h1{
+  font-size:2.8em;
+}
+}
+@media (max-width:1366px){
+ .sap_tabs {
+  clear: both;
+  margin: 0 auto;
+  width: 43%;
+}
+.login input[type="text"],.login input[type="password"] {
+  width: 86.3%;
+}
+@media (max-width:1280px){
+ .sap_tabs {
+  clear: both;
+  margin: 0 auto;
+  width:47%;
+}
+}
+@media (max-width:1024px){
+ body {
+  background: url("../images/bg.jpg") no-repeat 0px 0px;
+  padding-bottom: 4em;
+}
+.sap_tabs {
+  clear: both;
+  margin: 0 auto;
+  width: 80%;
+}
+.main h1 {
+  font-size: 3em;
+  padding: 1em 0;
+}
+}
+@media (max-width:768px){
+ .sap_tabs{
+  clear: both;
+  margin: 0 auto;
+  width: 80%;
+}
+}
+@media (max-width:640px){
+  .sap_tabs{
+  clear: both;
+  margin: 0 auto;
+  width: 80%;
+}
+.resp-tab-item{
+  font-size: 0.9em;
+}
+.login input[type="text"], .login input[type="password"] {
+  width: 85.8%;
+}
+form.sub input[type="password"] {
+  width: 94%;
+}
+@media (max-width:480px){
+  body {
+   background: url("../images/bg.jpg") no-repeat 0px 0px;
+   padding-bottom: 4em;
+ }
+ .top-img img {
+   width: 25%;
+ }
+ .resp-tab-item {
+   font-size: 0.7em;
+ }
+ .register input[type="text"], .register input[type="password"] {
+   width: 92%;
+ }
+ .register p,form.sub p {
+   font-size: 0.95em;
+   padding: 0.5em 0;
+ }
+ .login input[type="text"], .login input[type="password"] {
+   width: 84.8%;
+ }
+ form.sub input[type="password"] {
+   width: 92%;
+ }
+ .login input[type="text"], .login input[type="password"] {
+   width:82.9%;
+   padding: 0.85em 1em 0.85em 3em;
+   margin: 0.4em 0;
+   background: url("../images/mail.png")no-repeat 10px 15px #fff;
+   font-size: 16px;
+ }
+ .login input[type="password"] {
+   background: url("../images/lock.png")no-repeat 9px 10px #fff;
+ }
+ .main h1{
+   font-size: 2em;
+   padding:1em 0;
+ }
+}
+@media (max-width:320px){
+  .resp-tab-item{
+   font-size: 0.50em;
+ }
+ .register p, form.sub p{
+   font-size: 0.83em;
+   padding: 0.5em 0;
+ }
+ .register input[type="text"], .register input[type="password"]{
+   width: 91%;
+   font-size: 13px;
+ }
+ .sign-up input[type="reset"]{
+   padding: 0.6em 1.4em;
+   font-size: 0.9em;
+ }
+ .sign-up input[type="submit"]{
+   padding: 0.6em 1.5em;
+   font-size: 0.9em;
+ }
+ .lst{
+   padding: 4% 4% 4% 4%;
+ }
+ .login input[type="text"], .login input[type="password"]{
+   width: 75.5%;
+   padding: 0.8em 1em 0.8em 3em;
+   margin: 0.3em 0;
+   background: url("../images/mail.png")no-repeat 10px 13px #fff;
+   font-size: 15px;
+ }
+ .login input[type="password"]{
+   background: url("../images/lock.png")no-repeat 9px 7px #fff;
+ }
+ .submit.two input[type="submit"]{
+   font-size: 0.9em;
+   padding: 0.6em 1em;
+ }
+ .main h1 {
+   font-size: 2em;
+ }
+}
